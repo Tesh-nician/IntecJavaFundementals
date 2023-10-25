@@ -1,4 +1,4 @@
-package Les1.Oefening5;
+package Oefening5;
 
 public class VartaAA implements Battery {
 
@@ -7,6 +7,8 @@ public class VartaAA implements Battery {
     @Override
     public int deliverPower() { return this.powerReserve;}
 
-
-
+    @Override
+    public String toString() {
+        return "Varta AA "+powerReserve+" mAh";
+    }
 }
